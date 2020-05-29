@@ -18,15 +18,12 @@ void ShowElements(int arr[], int n) {
 	cout<<"\n";
 }
 
-int partition (int arr[], int low, int high)
-{ 
+int partition (int arr[], int low, int high) { 
 	int pivot = arr[high];
 	int i = (low - 1);
 
-	for (int j = low; j <= high- 1; j++)
-	{
-		if (arr[j] <= pivot)
-		{
+	for (int j = low; j <= high- 1; j++) {
+		if (arr[j] < pivot) {
 			i++;
 			Swap(&arr[i], &arr[j]);
 		}
@@ -35,10 +32,8 @@ int partition (int arr[], int low, int high)
 	return (i + 1);
 }
 
-void QuickSort(int arr[], int low, int high)
-{
-	if (low < high)
-	{
+void QuickSort(int arr[], int low, int high) {
+	if (low < high) {
 		int pi = partition(arr, low, high);
 		QuickSort(arr, low, pi - 1);
 		QuickSort(arr, pi + 1, high);
@@ -60,7 +55,9 @@ int main() {
 	ShowElements(arr, n);
 	
 	QuickSort(arr, 0, n-1);
+	
 	cout<<"After Sorting\n";
 	ShowElements(arr, n);
+	
 	return 0;
 }
