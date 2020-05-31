@@ -33,27 +33,9 @@ Here is the solution of almost all the Questions given to us to solve as an assi
 
 ### Want to contribute? Great!
 Open your favorite Terminal and run these commands.
-
-First step:
-```sh
-$ git clone https://github.com/ManishShah120/DAA_Lab_Assignmnent.git
 ```
-
-Second step:
-```sh
-$ cd DAA_Lab_Assignmnent
+Great add more files to list repo.
 ```
-
- Third step:
-```
-Make the required changes/add files
-```
-
-Fourth step:
-```
-Request a merge request
-```
-
 ### Todos
  - Write MORE Programs.
  - Increase the list of programs.
