@@ -1,4 +1,3 @@
-![Build Status](https://travis-ci.org/joemccann/dillinger.svg?branch=master)
 # `Design and Analysis of Algorithms[DAA]`
 #### Lab Assignment
 Here is the solution of almost all the Questions given to us to solve as an assignment in COVID-19 Lockdown Situation. 
